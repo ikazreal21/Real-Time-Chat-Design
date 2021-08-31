@@ -1,0 +1,23 @@
+$primary1: #fef9ef;
+$primary2: #5e6472;
+$secondary: #ffcb77;
+$accent1: #fe6d73;
+$accent2: #227c9d;
+$accent3: #17c3b2;
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+html {
+  background-color: $primary2;
+  height: relative;
+}
+
+
