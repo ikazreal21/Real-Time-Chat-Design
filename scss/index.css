@@ -8,7 +8,7 @@
 }
 
 html {
-  background-color: white;
+  background-color: #fef9ef;
   height: relative;
 }
 
@@ -21,14 +21,17 @@ html {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 2rem;
-  border: solid 1px black;
+  border: solid 1px #5e6472;
   border-radius: 20px;
+  background: rgba(24, 19, 19, 0.2);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
 }
 
 .nav-links a {
   padding-right: 1rem;
   text-decoration: none;
-  color: black;
+  color: #5e6472;
   font-weight: 600;
   font-size: 20px;
 }
@@ -52,7 +55,7 @@ section {
   height: 300px;
   width: 500px;
   margin-right: 1rem;
-  border: solid 1px black;
+  border: solid 1px #5e6472;
   border-radius: 20px;
 }
 
@@ -83,6 +86,7 @@ section {
 .password input[type="password"],
 .email input[type="email"],
 .fullname input[type="text"] {
+  width: 300px;
   height: 35px;
   border-radius: 5px;
   border: 0;
@@ -90,7 +94,7 @@ section {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 5px;
-  background: #fef9ef;
+  background: #ffcb77;
 }
 
 .username label,
@@ -137,7 +141,7 @@ section {
 }
 
 .message {
-  background-color: white;
+  background-color: #fef9ef;
   border-radius: 5px;
   width: 300px;
   margin: auto;
@@ -149,7 +153,7 @@ section {
   padding: 1rem 3rem 1rem 3rem;
   width: 400px;
   border-radius: 20px;
-  background-color: #0b9ad8;
+  background-color: #227c9d;
   text-align: center;
 }
 
@@ -177,7 +181,7 @@ section {
   margin-top: 4rem;
   margin-right: 5rem;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #5e6472;
   border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,8 +214,8 @@ section {
   border-radius: 5px;
   font-weight: bold;
   font-size: 18px;
-  background-color: #5e6472;
-  color: black;
+  background-color: #fef9ef;
+  color: #5e6472;
   padding: 0.8rem;
 }
 
@@ -231,14 +235,78 @@ section {
   text-decoration: none;
 }
 
+.roomlist .room:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 .room {
-  color: black;
-  border: 1px solid black;
+  color: #5e6472;
+  border: 1px solid #5e6472;
   width: 300px;
   height: relative;
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
+}
+
+.enter-room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.enter {
+  width: 500px;
+  height: 300px;
+  margin-top: 4rem;
+  margin-right: 5rem;
+  text-align: center;
+  border: 1px solid #5e6472;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.enter button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.save-room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+button:hover {
+  background-color: #5e6472;
+  opacity: 0.5;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 ::-webkit-scrollbar {
