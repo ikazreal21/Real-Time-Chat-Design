@@ -1,29 +1,25 @@
-$primary1: #fef9ef;
-$primary2: #5e6472;
-$secondary: #ffcb77;
-$accent1: #fe6d73;
-$accent2: #227c9d;
-$accent3: #17c3b2;
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
-
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Poppins", "sans-serif";
 }
 
 html {
   background-color: white;
   height: relative;
-  // height: 100vh;
 }
 
 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 1rem;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 2rem;
   border: solid 1px black;
   border-radius: 20px;
@@ -43,8 +39,11 @@ section {
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
@@ -58,7 +57,6 @@ section {
 }
 
 .main img {
-  // margin-top: 1rem;
   width: 400px;
   height: 104px;
 }
@@ -70,9 +68,15 @@ section {
 }
 
 .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .username input[type="text"],
@@ -83,16 +87,17 @@ section {
   border-radius: 5px;
   border: 0;
   outline: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 5px;
-  background: $primary1;
+  background: #fef9ef;
 }
 
 .username label,
 .password label,
 .email label,
 .fullname label {
-  color: $secondary;
+  color: #ffcb77;
   padding: 1rem 0 1rem 0;
   text-align: left;
 }
@@ -101,11 +106,15 @@ section {
 .password,
 .email,
 .fullname {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-// Login
 .login {
   height: relative;
   padding: 3rem;
@@ -134,7 +143,6 @@ section {
   margin: auto;
 }
 
-// Register Page
 .register {
   margin-top: 4rem;
   height: relative;
@@ -155,10 +163,12 @@ section {
   font-size: 18px;
 }
 
-// Dashboard
 .dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .generate {
@@ -169,10 +179,19 @@ section {
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .generate button {
@@ -195,6 +214,7 @@ section {
   color: black;
   padding: 0.8rem;
 }
+
 .generate h3 {
   margin: 1rem 0 1rem 0;
 }
@@ -210,6 +230,7 @@ section {
 .roomlist a {
   text-decoration: none;
 }
+
 .room {
   color: black;
   border: 1px solid black;
@@ -218,29 +239,28 @@ section {
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  // background-color: salmon;
 }
-
-// Enter Room
-
-
-// Scroll Bar
 
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
+
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.1);
 }
+
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.2);
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.4);
 }
+
 ::-webkit-scrollbar-thumb:active {
   background: rgba(0, 0, 0, 0.9);
 }
+/*# sourceMappingURL=index.css.map */
