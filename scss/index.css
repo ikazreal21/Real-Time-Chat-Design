@@ -449,14 +449,14 @@ textarea,
 }
 
 .chat-right {
-  border-radius: 16px 16px 0 16px;
+  border-radius: 16px 50px 0 50px;
   -ms-flex-item-align: end;
       align-self: flex-end;
   text-align: right;
 }
 
 .chat-left {
-  border-radius: 16px 16px 16px 0;
+  border-radius: 50px 16px 50px 0;
   -ms-flex-item-align: start;
       align-self: flex-start;
   text-align: left;
