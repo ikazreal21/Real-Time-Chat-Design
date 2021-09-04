@@ -8,7 +8,7 @@
 }
 
 html {
-  background-color: #4c93b1;
+  background-color: #cadbe2;
   height: relative;
 }
 
@@ -25,11 +25,11 @@ html {
           align-items: center;
   margin: 1rem;
   border-radius: 20px;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .navbar img {
@@ -106,14 +106,14 @@ textarea,
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 5px;
-  background: #d4c3c8;
+  background: #fff7f9;
 }
 
 .username label,
 .password label,
 .email label,
 .fullname label {
-  color: #d4c3c8;
+  color: #fff7f9;
   padding: 1rem 0 1rem 0;
   text-align: left;
 }
@@ -139,11 +139,11 @@ textarea,
   width: 400px;
   border-radius: 20px;
   text-align: center;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .login button {
@@ -155,11 +155,11 @@ textarea,
   border: none;
   font-weight: bold;
   font-size: 18px;
-  background-color: #4c93b1;
+  background-color: #cadbe2;
 }
 
 .message {
-  background-color: #4c93b1;
+  background-color: #cadbe2;
   border-radius: 5px;
   width: 300px;
   margin: auto;
@@ -171,11 +171,11 @@ textarea,
   padding: 1rem 3rem 1rem 3rem;
   width: 400px;
   border-radius: 20px;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   text-align: center;
 }
 
@@ -187,7 +187,7 @@ textarea,
   border: none;
   font-weight: bold;
   font-size: 18px;
-  background-color: #4c93b1;
+  background-color: #cadbe2;
 }
 
 .dashboard {
@@ -218,11 +218,11 @@ textarea,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .generate button {
@@ -234,7 +234,7 @@ textarea,
   border: none;
   font-weight: bold;
   font-size: 18px;
-  background-color: #4c93b1;
+  background-color: #cadbe2;
 }
 
 .generate a {
@@ -242,7 +242,7 @@ textarea,
   border-radius: 5px;
   font-weight: bold;
   font-size: 18px;
-  background-color: #4c93b1;
+  background-color: #cadbe2;
   color: #000000;
   padding: 0.8rem;
 }
@@ -275,9 +275,9 @@ textarea,
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  background: rgba(231, 213, 221, 0.25);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .enter-room {
@@ -308,11 +308,11 @@ textarea,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .enter button {
@@ -324,7 +324,7 @@ textarea,
   border: none;
   font-weight: bold;
   font-size: 18px;
-  background-color: #4c93b1;
+  background-color: #cadbe2;
 }
 
 .save-room {
@@ -355,11 +355,11 @@ textarea,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .save textarea {
@@ -375,7 +375,7 @@ textarea,
   border: none;
   font-weight: bold;
   font-size: 18px;
-  background-color: #4c93b1;
+  background-color: #cadbe2;
 }
 
 .chat-room {
@@ -415,11 +415,11 @@ textarea,
   border-radius: 5px;
   overflow: hidden;
   overflow-y: scroll;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .chat-wrapper {
@@ -445,9 +445,7 @@ textarea,
   max-width: 600px;
   padding: 14px;
   margin: 6px;
-  background: rgba(231, 213, 221, 0.25);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  border: 1px solid rgba(36, 22, 22, 0.18);
 }
 
 .chat-right {
@@ -482,12 +480,12 @@ textarea,
   border: none;
   font-weight: bold;
   font-size: 18px;
-  background-color: #4c93b1;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background-color: #cadbe2;
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .chat input[type="text"] {
@@ -499,7 +497,7 @@ textarea,
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 5px;
-  background: #d4c3c8;
+  background: #fff7f9;
 }
 
 .update-wrapper {
@@ -534,11 +532,11 @@ textarea,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .update-card textarea {
@@ -554,7 +552,7 @@ textarea,
   border: none;
   font-weight: bold;
   font-size: 18px;
-  background-color: #4c93b1;
+  background-color: #cadbe2;
 }
 
 .update-card a {
@@ -571,7 +569,7 @@ textarea,
 
 input[type="button"]:hover,
 button:hover {
-  background-color: #4c93b1;
+  background-color: #cadbe2;
   opacity: 0.5;
 }
 
@@ -586,11 +584,11 @@ a:hover {
   text-align: center;
   text-decoration: none;
   padding: 0.5rem;
-  background: rgba(231, 213, 221, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: rgba(19, 30, 51, 0.15);
+  -webkit-box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+          box-shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   color: black;
 }
 

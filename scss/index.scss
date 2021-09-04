@@ -1,9 +1,14 @@
-$primary1: #4c93b1;
+$primary1: #cadbe2;
+// $primary1: #98D9C2;
 $primary2: #000000;
-$secondary: #d4c3c8;
+$secondary: #fff7f9;
 $accent1: #fe6d73;
 $accent2: #227c9d;
 $accent3: #17c3b2;
+
+$glass: rgba(19, 30, 51, 0.15);
+$shadow: 0 8px 20px 0 rgba(63, 63, 68, 0.37);
+$blur: 16px;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
 
@@ -27,10 +32,10 @@ html {
   align-items: center;
   margin: 1rem;
   border-radius: 20px;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 .navbar img {
@@ -127,10 +132,10 @@ textarea,
   width: 400px;
   border-radius: 20px;
   text-align: center;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 .login button {
@@ -159,10 +164,10 @@ textarea,
   padding: 1rem 3rem 1rem 3rem;
   width: 400px;
   border-radius: 20px;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
   text-align: center;
 }
 
@@ -194,10 +199,10 @@ textarea,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 .generate button {
@@ -249,9 +254,9 @@ textarea,
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  background: rgba(231, 213, 221, 0.25);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 // Enter Room
@@ -271,10 +276,10 @@ textarea,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 .enter button {
@@ -306,10 +311,10 @@ textarea,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 .save textarea {
@@ -358,10 +363,10 @@ textarea,
   border-radius: 5px;
   overflow: hidden;
   overflow-y: scroll;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 .chat-wrapper {
@@ -374,15 +379,12 @@ textarea,
 
 .chat-left,
 .chat-right {
-  // border: 1px solid $primary2;
   border-radius: 5px;
   min-width: 60px;
   max-width: 600px;
   padding: 14px;
   margin: 6px;
-  background: rgba(231, 213, 221, 0.25);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  border: 1px solid rgba(36, 22, 22, 0.18);
 }
 
 .chat-right {
@@ -411,10 +413,10 @@ textarea,
   font-weight: bold;
   font-size: 18px;
   background-color: $primary1;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 .chat input[type="text"] {
@@ -447,10 +449,10 @@ textarea,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 }
 
 .update-card textarea {
@@ -499,10 +501,10 @@ a:hover {
   text-align: center;
   text-decoration: none;
   padding: 0.5rem;
-  background: rgba(231, 213, 221, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
-  backdrop-filter: blur(13px);
-  -webkit-backdrop-filter: blur(13px);
+  background: $glass;
+  box-shadow: $shadow;
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
   color: black;
 }
 
