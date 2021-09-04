@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/scss/index.css" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+
     <title>AnonRoom || Room Name</title>
   </head>
   <header>
     <div class="navbar">
-      <a href="index.html"><img src="" alt="Logo" /></a>
+      <a href="index.html"><img src="/img/logo.png" alt="Logo" /></a>
       <ul class="nav-links">
         <a href="dashboard.html">Dashboard</a>
         <a href="roomsave.html">Save Room</a>
@@ -16,5 +18,124 @@
       </ul>
     </div>
   </header>
-  <body></body>
+  <body>
+    <div class="chat-room">
+      <div class="roomlist">
+        <a href="room.html"
+          ><div class="room">
+            <h3>Room Name</h3>
+            <h4>Room Code</h4>
+          </div>
+        </a>
+        <a href="room.html"
+          ><div class="room">
+            <h3>Room Name</h3>
+            <h4>Room Code</h4>
+          </div>
+        </a>
+        <a href="room.html"
+          ><div class="room">
+            <h3>Room Name</h3>
+            <h4>Room Code</h4>
+          </div>
+        </a>
+        <a href="room.html"
+          ><div class="room">
+            <h3>Room Name</h3>
+            <h4>Room Code</h4>
+          </div>
+        </a>
+        <a href="room.html"
+          ><div class="room">
+            <h3>Room Name</h3>
+            <h4>Room Code</h4>
+          </div>
+        </a>
+      </div>
+      <div class="chat">
+        <label for="">Room Code</label>
+        <div class="message-wrapper" id="chat-text">
+          <div class="chat-wrapper">
+            <div class="chat-left">
+              Username: <br />
+              Test
+            </div>
+          </div>
+          <div class="chat-wrapper">
+            <div class="chat-right">
+              Username: <br />
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+              quae ipsum blanditiis odit veritatis aperiam officia, architecto
+              laboriosam accusantium nostrum est natus unde rerum aspernatur,
+              fugit harum exercitationem recusandae. Voluptatem.
+            </div>
+          </div>
+          <div class="chat-wrapper">
+            <div class="chat-right">
+              Username: <br />
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+              quae ipsum blanditiis odit veritatis aperiam officia, architecto
+              laboriosam accusantium nostrum est natus unde rerum aspernatur,
+              fugit harum exercitationem recusandae. Voluptatem.
+            </div>
+          </div>
+          <div class="chat-wrapper">
+            <div class="chat-right">
+              Username: <br />
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+              quae ipsum blanditiis odit veritatis aperiam officia, architecto
+              laboriosam accusantium nostrum est natus unde rerum aspernatur,
+              fugit harum exercitationem recusandae. Voluptatem.
+            </div>
+          </div>
+          <div class="chat-wrapper">
+            <div class="chat-right">
+              Username: <br />
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+              quae ipsum blanditiis odit veritatis aperiam officia, architecto
+                laboriosam accusantium nostrum est natus unde rerum aspernatur,
+                fugit harum exercitationem recusandae. Voluptatem.
+            </div>
+          </div>
+          
+          <div class="chat-wrapper">
+            <div class="chat-left">
+              Username: <br />
+              Test
+            </div>
+          </div>
+          <div class="chat-wrapper">
+            <div class="chat-left">
+              Username: <br />
+              Test
+            </div>
+          </div>
+        </div>
+        <div class="inputs">
+          <input
+            type="text"
+            id="input"
+            placeholder="Message"
+            class="form-control"
+            onkeyup="s()"
+          />
+          <input
+            class="btn-links"
+            id="submit"
+            type="button"
+            value="Send"
+            disabled
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function scrollToBottom() {
+      let objDiv = document.getElementById("chat-text");
+      objDiv.scrollTop = objDiv.scrollHeight;
+    }
+
+    scrollToBottom();
+  </script>
 </html>

@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/scss/index.css" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+
     <title>AnonRoom || Room Save</title>
   </head>
   <header>
     <div class="navbar">
-      <a href="index.html"><img src="" alt="Logo" /></a>
+      <a href="index.html"><img src="/img/logo.png" alt="Logo" /></a>
       <ul class="nav-links">
         <a href="dashboard.html">Dashboard</a>
         <a href="enterroom.html">Enter Room</a>
@@ -20,37 +22,31 @@
     <section>
       <div class="save-room">
         <div class="roomlist">
-          <a href="#"
+          <a href="room.html"
             ><div class="room">
               <h3>Room Name</h3>
               <h4>Room Code</h4>
             </div>
           </a>
-          <a href="#"
+          <a href="room.html"
             ><div class="room">
               <h3>Room Name</h3>
               <h4>Room Code</h4>
             </div>
           </a>
-          <a href="#"
+          <a href="room.html"
             ><div class="room">
               <h3>Room Name</h3>
               <h4>Room Code</h4>
             </div>
           </a>
-          <a href="#"
+          <a href="room.html"
             ><div class="room">
               <h3>Room Name</h3>
               <h4>Room Code</h4>
             </div>
           </a>
-          <a href="#"
-            ><div class="room">
-              <h3>Room Name</h3>
-              <h4>Room Code</h4>
-            </div>
-          </a>
-          <a href="#"
+          <a href="room.html"
             ><div class="room">
               <h3>Room Name</h3>
               <h4>Room Code</h4>
@@ -59,20 +55,28 @@
         </div>
         <div class="save">
           <form action="" method="POST">
+            <label>Save a Room</label>
             <div class="username">
-              <label for="Username">Room Name</label>
-              <input type="text" name="username" required />
+              <input
+                type="text"
+                name="username"
+                placeholder="Room Name"
+                required
+              />
             </div>
             <div class="username">
-              <label for="Username">Room Code</label>
-              <input type="text" name="username" required />
+              <input
+                type="text"
+                name="username"
+                placeholder="Room Code"
+                required
+              />
             </div>
             <div class="username">
-              <label for="Username">Description</label>
-              <textarea></textarea>
+              <textarea placeholder="Description"></textarea>
             </div>
             <div>
-              <button type="submit">Save Room</button>
+              <button type="submit">Save</button>
               <button type="reset">Reset</button>
             </div>
           </form>

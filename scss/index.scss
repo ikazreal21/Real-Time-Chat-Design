@@ -1,6 +1,6 @@
-$primary1: #fef9ef;
-$primary2: #5e6472;
-$secondary: #ffcb77;
+$primary1: #4c93b1;
+$primary2: #000000;
+$secondary: #d4c3c8;
 $accent1: #fe6d73;
 $accent2: #227c9d;
 $accent3: #17c3b2;
@@ -24,12 +24,20 @@ html {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
-  margin: 2rem;
-  border: solid 1px $primary2;
+  align-items: center;
+  margin: 1rem;
   border-radius: 20px;
-  background: rgba(24, 19, 19, 0.2);
-  backdrop-filter: blur(6.5px);
-  -webkit-backdrop-filter: blur(6.5px);
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+}
+
+.navbar img {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  height: 40px;
+  width: 40px;
 }
 
 .nav-links a {
@@ -78,6 +86,7 @@ section {
   align-items: center;
 }
 
+textarea,
 .username input[type="text"],
 .password input[type="password"],
 .email input[type="email"],
@@ -105,6 +114,7 @@ section {
 .password,
 .email,
 .fullname {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -116,8 +126,11 @@ section {
   margin-top: 10rem;
   width: 400px;
   border-radius: 20px;
-  background-color: $accent2;
   text-align: center;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
 }
 
 .login button {
@@ -129,6 +142,7 @@ section {
   border: none;
   font-weight: bold;
   font-size: 18px;
+  background-color: $primary1;
 }
 
 .message {
@@ -145,7 +159,10 @@ section {
   padding: 1rem 3rem 1rem 3rem;
   width: 400px;
   border-radius: 20px;
-  background-color: $accent2;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
   text-align: center;
 }
 
@@ -157,6 +174,7 @@ section {
   border: none;
   font-weight: bold;
   font-size: 18px;
+  background-color: $primary1;
 }
 
 // Dashboard
@@ -171,12 +189,15 @@ section {
   margin-top: 4rem;
   margin-right: 5rem;
   text-align: center;
-  border: 1px solid $primary2;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
 }
 
 .generate button {
@@ -188,6 +209,7 @@ section {
   border: none;
   font-weight: bold;
   font-size: 18px;
+  background-color: $primary1;
 }
 
 .generate a {
@@ -204,11 +226,11 @@ section {
 }
 
 .roomlist {
-  overflow: hidden;
+  overflow: auto;
   overflow-y: scroll;
   width: 350px;
   height: 560px;
-  margin-right: 8rem;
+  margin-right: 6rem;
 }
 
 .roomlist a {
@@ -221,13 +243,15 @@ section {
 
 .room {
   color: $primary2;
-  border: 1px solid $primary2;
+  // border: 1px solid $primary2;
   width: 300px;
   height: relative;
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  // background-color: salmon;
+  background: rgba(231, 213, 221, 0.25);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
 }
 
 // Enter Room
@@ -237,17 +261,20 @@ section {
 }
 
 .enter {
-  width: 500px;
+  width: 400px;
   height: 300px;
   margin-top: 4rem;
   margin-right: 5rem;
   text-align: center;
-  border: 1px solid $primary2;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
 }
 
 .enter button {
@@ -259,7 +286,7 @@ section {
   border: none;
   font-weight: bold;
   font-size: 18px;
-  // background-color: $primary2;
+  background-color: $primary1;
 }
 
 // Save Room
@@ -268,8 +295,196 @@ section {
   justify-content: space-around;
 }
 
+.save {
+  height: 400px;
+  width: 500px;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+}
+
+.save textarea {
+  resize: none;
+  height: 90px;
+}
+
+.save button {
+  margin: 1rem;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: $primary1;
+}
+
+// Chat Room
+.chat-room {
+  display: flex;
+  justify-content: space-around;
+}
+.chat-room .roomlist {
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 350px;
+  height: 560px;
+  margin-right: 2rem;
+}
+
+.chat {
+  height: 550px;
+  width: 800px;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-wrapper {
+  height: 600px;
+  width: 800px;
+  margin-top: 0.5rem;
+  text-align: center;
+  // border: 1px solid $primary2;
+  border-radius: 5px;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+}
+
+.chat-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-self: flex-end;
+  font-size: 14px;
+}
+
+.chat-left,
+.chat-right {
+  // border: 1px solid $primary2;
+  border-radius: 5px;
+  min-width: 60px;
+  max-width: 600px;
+  padding: 14px;
+  margin: 6px;
+  background: rgba(231, 213, 221, 0.25);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+}
+
+.chat-right {
+  border-radius: 16px 16px 0 16px;
+  align-self: flex-end;
+  text-align: right;
+}
+.chat-left {
+  border-radius: 16px 16px 16px 0;
+  align-self: flex-start;
+  text-align: left;
+}
+.chat-room .inputs {
+  display: flex;
+}
+.chat-room input {
+  margin: 1rem;
+}
+
+.chat input[type="button"] {
+  margin: 1rem;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: $primary1;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+}
+
+.chat input[type="text"] {
+  width: 700px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  padding: 5px;
+  background: $secondary;
+}
+
+// Update Details
+.update-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-card {
+  height: 400px;
+  width: 500px;
+  margin-top: 10rem;
+  margin-right: 5rem;
+  text-align: center;
+  // border: 1px solid $primary2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+}
+
+.update-card textarea {
+  resize: none;
+  height: 90px;
+}
+
+.update-card button {
+  margin: 1rem;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: $primary1;
+}
+
+.update-card a {
+  margin: 1rem;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: $primary2;
+}
+
+// Hover
+input[type="button"]:hover,
 button:hover {
-  background-color: $primary2;
+  background-color: $primary1;
   opacity: 0.5;
 }
 
@@ -277,8 +492,25 @@ a:hover {
   opacity: 0.5;
 }
 
-// Scroll Bar
+.goback a {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  background: rgba(231, 213, 221, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(18, 19, 29, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  color: black;
+}
 
+.goback {
+  margin-top: 1rem;
+}
+
+// Scroll Bar
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
